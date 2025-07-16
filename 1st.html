@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Navbar Template</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* Navbar Styles */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #333;
+      color: white;
+    }
+
+    .navbar .logo {
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+
+    .navbar .nav-links a {
+      margin-left: 15px;
+      color: white;
+      text-decoration: none;
+    }
+
+    .navbar .nav-links a:hover {
+      text-decoration: underline;
+    }
+
+    /* Main Content Placeholder */
+    .content {
+      flex: 1;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+
+    /* Bottom Navbar */
+    .bottom-navbar {
+      background-color: #222;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navbar -->
+  <header class="navbar">
+    <div class="logo">🔷 Logo</div>
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+  </header>
+
+  <!-- Empty Content Area -->
+  <main class="content">
+    <!-- Your content goes here -->
+  </main>
+
+  <!-- Bottom Navbar -->
+  <footer class="navbar bottom-navbar">
+    <div class="logo">🔷 Footer Logo</div>
+    <div class="nav-links">
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+      <a href="#">Help</a>
+    </div>
+  </footer>
+
+</body>
+</html>
